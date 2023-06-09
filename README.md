@@ -1,1 +1,1 @@
-# Tecnical-Challenge
+# Technical-Challenge
