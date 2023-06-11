@@ -28,7 +28,7 @@ export function MoviesList({movies}:MoviesListProps) {
 
 export function NoMovies (){
   return(
-    <p>Movie not Found</p>
+    <p style={{display:'flex',justifyContent:'center'}}>Movie not Found</p>
   )
 }
 

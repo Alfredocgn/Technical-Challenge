@@ -1,9 +1,9 @@
 
-import { useMoviesProps } from "../hooks/useMovies";
+
 
 const API_KEY = '105423ed'
 
-export const searchMovies = async ({search} :useMoviesProps) =>{
+export const searchMovies = async ({search} :{search:string}) =>{
   if(search === '') return null ;
 
   try{
